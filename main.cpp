@@ -12,9 +12,6 @@ int main(int argc, char** argv)
 	matrix.change(size, array);
 	matrix.show_matrix(size, array);
 	matrix.delete_array(size, array);
-	int b = 0;
-	std :: cout << "program finished press any key to close it";
-	std :: cin  >> b;
 	return 0;
 
 }
